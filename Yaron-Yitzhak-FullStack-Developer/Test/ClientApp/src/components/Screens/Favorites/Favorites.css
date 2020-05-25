@@ -1,0 +1,10 @@
+﻿.favorites-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.favorites-results-container {
+    display: flex;
+    justify-content: center;
+}

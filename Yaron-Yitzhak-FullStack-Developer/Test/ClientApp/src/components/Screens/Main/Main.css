@@ -1,0 +1,15 @@
+﻿.main-container {
+
+}
+
+.main-search-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.main-results-section {
+    display: flex;
+    flex-flow:row;
+    justify-content: center;
+}

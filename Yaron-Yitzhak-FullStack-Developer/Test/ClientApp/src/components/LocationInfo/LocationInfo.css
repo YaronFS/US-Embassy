@@ -1,0 +1,36 @@
+﻿.location-info-container {
+    width: 70%;
+    /*border-left: 1px solid black;*/
+    margin-top: 50px;
+}
+
+.location-info-card {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /*border: 1px solid blue;*/
+}
+
+.location-info-details {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+    .location-info-details div {
+        padding: 5px;
+        text-align: center;
+    }
+
+.location-info-favorites {
+    padding: 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .location-info-card {
+        flex-flow: row;
+    }
+}

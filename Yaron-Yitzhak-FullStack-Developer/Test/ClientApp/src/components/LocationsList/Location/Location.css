@@ -1,0 +1,13 @@
+﻿.location-container {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #2185D0;
+    border-radius: 10px;
+}
+
+    .location-container:hover {
+        cursor: pointer;
+        background-color: #2185D0;
+        color: white;
+        transition: 0.5s;
+    }

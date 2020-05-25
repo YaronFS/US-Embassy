@@ -1,0 +1,17 @@
+﻿.navigation-item {
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    color: white;
+}
+
+.navigation-item a, .navigation-item a:hover, .navigation-item a:active {
+    color: white;
+}
+
+.navigation-item a.active {
+    text-decoration: underline;
+}
